@@ -1,0 +1,184 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "1.13.2",
+  "hash": "70fc93fceee4340a12b2",
+  "time": 1179,
+  "publicPath": "",
+  "assetsByChunkName": {
+    "mod1": "mod1.js"
+  },
+  "assets": [
+    {
+      "name": "mod1.js",
+      "size": 466,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "mod1"
+      ],
+      "emitted": true
+    }
+  ],
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 579,
+      "names": [
+        "mod1"
+      ],
+      "files": [
+        "mod1.js"
+      ],
+      "hash": "997b8a3863c9142bae60",
+      "parents": [],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "D:\\Projects\\JavaScript\\react-redux\\webpack\\node_modules\\babel-loader\\index.js?presets[]=es2015!D:\\Projects\\JavaScript\\react-redux\\webpack\\module1.js",
+          "name": "./module1.js",
+          "index": 0,
+          "index2": 1,
+          "size": 314,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "profile": {
+            "factory": 27,
+            "building": 978
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "source": "/**\r\n * Created by Vitalii on 9/21/2016.\r\n */\n'use strict';\n\nvar _module = require('./module2');\n\nvar _module2 = _interopRequireDefault(_module);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n(0, _module2.default)('Hello W');\n\nexports.module1 = _module2.default;"
+        },
+        {
+          "id": 1,
+          "identifier": "D:\\Projects\\JavaScript\\react-redux\\webpack\\node_modules\\babel-loader\\index.js?presets[]=es2015!D:\\Projects\\JavaScript\\react-redux\\webpack\\module2.js",
+          "name": "./module2.js",
+          "index": 1,
+          "index2": 0,
+          "size": 265,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "D:\\Projects\\JavaScript\\react-redux\\webpack\\node_modules\\babel-loader\\index.js?presets[]=es2015!D:\\Projects\\JavaScript\\react-redux\\webpack\\module1.js",
+          "profile": {
+            "factory": 3,
+            "building": 40
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "D:\\Projects\\JavaScript\\react-redux\\webpack\\node_modules\\babel-loader\\index.js?presets[]=es2015!D:\\Projects\\JavaScript\\react-redux\\webpack\\module1.js",
+              "module": "./module1.js",
+              "moduleName": "./module1.js",
+              "type": "cjs require",
+              "userRequest": "./module2",
+              "loc": "6:14-34"
+            }
+          ],
+          "source": "/**\r\n * Created by Vitalii on 9/21/2016.\r\n */\n\n'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nexports.default = function (message) {\n    debugger;\n    console.log(message);\n    console.log(\"test\");\n    console.log(\"test2\");\n};\n\n;"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 0,
+          "module": "D:\\Projects\\JavaScript\\react-redux\\webpack\\node_modules\\babel-loader\\index.js?presets[]=es2015!D:\\Projects\\JavaScript\\react-redux\\webpack\\module1.js",
+          "moduleIdentifier": "D:\\Projects\\JavaScript\\react-redux\\webpack\\node_modules\\babel-loader\\index.js?presets[]=es2015!D:\\Projects\\JavaScript\\react-redux\\webpack\\module1.js",
+          "moduleName": "./module1.js",
+          "loc": "",
+          "name": "mod1",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "D:\\Projects\\JavaScript\\react-redux\\webpack\\node_modules\\babel-loader\\index.js?presets[]=es2015!D:\\Projects\\JavaScript\\react-redux\\webpack\\module1.js",
+      "name": "./module1.js",
+      "index": 0,
+      "index2": 1,
+      "size": 314,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": null,
+      "profile": {
+        "factory": 27,
+        "building": 978
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "source": "/**\r\n * Created by Vitalii on 9/21/2016.\r\n */\n'use strict';\n\nvar _module = require('./module2');\n\nvar _module2 = _interopRequireDefault(_module);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n(0, _module2.default)('Hello W');\n\nexports.module1 = _module2.default;"
+    },
+    {
+      "id": 1,
+      "identifier": "D:\\Projects\\JavaScript\\react-redux\\webpack\\node_modules\\babel-loader\\index.js?presets[]=es2015!D:\\Projects\\JavaScript\\react-redux\\webpack\\module2.js",
+      "name": "./module2.js",
+      "index": 1,
+      "index2": 0,
+      "size": 265,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "D:\\Projects\\JavaScript\\react-redux\\webpack\\node_modules\\babel-loader\\index.js?presets[]=es2015!D:\\Projects\\JavaScript\\react-redux\\webpack\\module1.js",
+      "profile": {
+        "factory": 3,
+        "building": 40
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "D:\\Projects\\JavaScript\\react-redux\\webpack\\node_modules\\babel-loader\\index.js?presets[]=es2015!D:\\Projects\\JavaScript\\react-redux\\webpack\\module1.js",
+          "module": "./module1.js",
+          "moduleName": "./module1.js",
+          "type": "cjs require",
+          "userRequest": "./module2",
+          "loc": "6:14-34"
+        }
+      ],
+      "source": "/**\r\n * Created by Vitalii on 9/21/2016.\r\n */\n\n'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nexports.default = function (message) {\n    debugger;\n    console.log(message);\n    console.log(\"test\");\n    console.log(\"test2\");\n};\n\n;"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}
